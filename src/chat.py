@@ -5,7 +5,7 @@ from src.clients.pgvector import vector_store
 def retrieve_context(question):
     """Retrieves relevant context using the vector_store."""
     try:
-        retrieved_docs = vector_store.similarity_search(question, k=2)
+        retrieved_docs = vector_store.similarity_search(question, k=10)
         return retrieved_docs
     except Exception as e:
         print(f"Error retrieving context: {e}")
