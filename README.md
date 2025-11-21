@@ -2,8 +2,6 @@
 
 ## Como executar a solução
 
-Este projeto possui duas etapas principais:
-
 ### 1. Configuração do ambiente virtual (venv)
 
 Antes de instalar as dependências, recomenda-se criar um ambiente virtual Python:
